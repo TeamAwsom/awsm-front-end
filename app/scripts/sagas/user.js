@@ -20,7 +20,7 @@ import { ActionTypes } from 'constants/index';
 export function* freeTrialInitialPost(data) {
   const options = {
     method: 'POST',
-    payload: data.payload,
+    payload: data.payload
   };
   console.log('inisde FreeTial: ',process.env)
   try {
